@@ -18,7 +18,8 @@ function opdaterCanvas(){
 	var ctx = touchzone.getContext("2d");
 	var x =event.touches[0].pageX;
 	var y = event.touches[0].pageY
-	ctx.lineTo(x,y);
+	ctx.moveTo(0,0)
+	ctx.lineTo(200,100);
 	ctx.stroke();
 }
 
