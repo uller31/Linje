@@ -23,6 +23,7 @@ function opdaterCanvas(){
 }
 
 
+
 function end(e) {
 	e.preventDefault();
 }
